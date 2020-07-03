@@ -1,0 +1,112 @@
+/*Colores*/
+
+/* Color Theme Swatches in Hex */
+.Color-Psychology-Themes-1-hex { color: #33F000; }
+.Color-Psychology-Themes-2-hex { color: #E84807; }
+.Color-Psychology-Themes-3-hex { color: #B81309; }
+.Color-Psychology-Themes-4-hex { color: #FFEA00; }
+.Color-Psychology-Themes-5-hex { color: #0914C9; }
+
+/* Color Theme Swatches in RGBA */
+.Color-Psychology-Themes-1-rgba { color: rgba(51, 239, 0, 1); }
+.Color-Psychology-Themes-2-rgba { color: rgba(232, 72, 7, 1); }
+.Color-Psychology-Themes-3-rgba { color: rgba(184, 18, 8, 1); }
+.Color-Psychology-Themes-4-rgba { color: rgba(255, 233, 0, 1); }
+.Color-Psychology-Themes-5-rgba { color: rgba(8, 20, 200, 1); }
+
+
+
+/*Títulos*/
+
+h1 {
+  display: block;
+  font-size: 50px;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 900;
+  font-family: serif;
+}
+
+ h2 {
+	 display: block;
+	 font-size: 30px;
+	 margin-top: 0.67em;
+	 margin-bottom: 0.67em;
+	 margin-left: 0;
+	 margin-right: 0;
+	 font-weight: 800;
+	 font-family: serif;
+
+ }
+
+ h3 {
+ 	display: block;
+	font-size: 20px;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: 500;
+	font-family: sans-serif;
+ }
+	
+/*Textos*/	
+.centrar-texto { 
+
+	margin-bottom: 40px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 60px;
+    text-align: center;
+ }
+
+
+ /*Imágenes*/
+
+ /*tamaños*/
+
+/* tamaño imagen karla*/
+
+.t_karla {
+	height:auto;
+	width: 300px
+}
+
+/*Tamaño imagen anahuac*/
+.t_anahuac {
+	height:300px;
+	width: 300px
+}
+/*Tamaño imagen kanankil*/
+.t_kana
+
+{
+	height:300px;
+	width: 300px
+}
+
+/*Tamaño imagen tanatologia*/
+
+.t_tanato {
+    height: 100px;
+    width: 100px;
+    margin-top: 98px;
+    margin-left: -27px;
+}
+
+
+/*Tamaño de secciones
+*/
+
+#Formacion { 
+height: 90vh; 
+	background-color: lightblue;
+
+}
+
+#Areasdeatencion{
+	height: 80vh;
+	background-color: blue;
+}
