@@ -31,12 +31,12 @@ h1 {
 
  h2 {
 	 display: block;
-	 font-size: 30px;
+	 font-size: 50px;
 	 margin-top: 0.67em;
 	 margin-bottom: 0.67em;
 	 margin-left: 0;
 	 margin-right: 0;
-	 font-weight: 800;
+	 font-weight: 600;
 	 font-family: serif;
 
  }
@@ -53,6 +53,10 @@ h1 {
  }
 	
 /*Textos*/	
+
+p{
+	font-size: 25px;
+}
 .centrar-texto { 
 
 	margin-bottom: 40px;
@@ -109,4 +113,15 @@ height: 90vh;
 #Areasdeatencion{
 	height: 80vh;
 	background-color: blue;
+}
+
+
+/*Alineación Areas de actención*/
+
+.izquierda {
+	text-align: left;
+}
+
+.derecha {
+	text-align:right;
 }
