@@ -14,19 +14,23 @@
 .Color-Psychology-Themes-4-rgba { color: rgba(255, 233, 0, 1); }
 .Color-Psychology-Themes-5-rgba { color: rgba(8, 20, 200, 1); }
 
+/*Fonts*/
+
+body {font-family: 'Lato', sans-serif;}
+h1 {font-family: 'Yellowtail', cursive;}
+h2, h3, h4, h5 {font-family: 'Vollkorn', serif;}
 
 
 /*Títulos*/
 
 h1 {
   display: block;
-  font-size: 50px;
-  margin-top: 0.67em;
-  margin-bottom: 0.67em;
+  font-size: 100px;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
   margin-left: 0;
   margin-right: 0;
-  font-weight: 900;
-  font-family: serif;
+  font-weight: 500;
 }
 
  h2 {
@@ -51,6 +55,12 @@ h1 {
 	font-weight: 500;
 	font-family: sans-serif;
  }
+
+.d-none { display: block; height: 1px;
+    border: 0; border-top: 1px solid #FFF;
+    margin: 1em 0; padding: 0; }
+
+
 	
 /*Textos*/	
 
@@ -80,48 +90,98 @@ p{
 
 /*Tamaño imagen anahuac*/
 .t_anahuac {
-	height:300px;
-	width: 300px
+	margin-top:5vh;
+	height:9%;
+	width: auto;
 }
 /*Tamaño imagen kanankil*/
 .t_kana
 
 {
-	height:300px;
-	width: 300px
+	height:30%;
+	width: auto;
 }
 
 /*Tamaño imagen tanatologia*/
 
 .t_tanato {
-    height: 100px;
-    width: 100px;
-    margin-top: 98px;
-    margin-left: -27px;
+    height: 30%;
+    width:  auto;
+
 }
+
+
 
 
 /*Tamaño de secciones
 */
 
-#Formacion { 
-height: 90vh; 
-	background-color: lightblue;
-
+header {
+	padding-top: 5.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(rgba(33, 34, 38, 0.6), rgba(33, 34, 38, 0.6)), url(../images/terapiaprincipal.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 95vh;
 }
-
-#Areasdeatencion{
-	height: 80vh;
-	background-color: blue;
-}
-
 
 /*Alineación Areas de actención*/
 
-.izquierda {
-	text-align: left;
+
+
+.areasdeatencion {
+	font-size: 30px;
+	font-family: 'Vollkorn', serif;
 }
 
-.derecha {
-	text-align:right;
+/*Seccion Areas de atencion*/
+
+.circle {
+	height: 150px;
+	width: auto;
+	border-radius: 50%;
+}
+
+/*Seccion areas de terapia*/
+#Saladeterapia {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(rgba(33, 34, 38, 0.6), rgba(33, 34, 38, 0.6)), url(../images/saladeterapia.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+/*Seccion nota*/
+
+#Nota {
+	padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(rgba(33, 34, 38, 0.6), rgba(33, 34, 38, 0.6)), url(../images/terapeuta.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.border{
+	border-style: ridge;
+    margin-top: -26vh;
+    margin-bottom: -14vh;
+    border: 1px solid #FFF!important;
+}
+
+.border_salaterapia{
+	border-style: ridge;
+    border: 1px solid #FFF!important;
 }

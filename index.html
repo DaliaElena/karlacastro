@@ -11,8 +11,17 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+ <!--    fonts -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Vollkorn:wght@600&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="css/style.css">
 </head>
+
+<!-- Aqui empieza el body
+ -->
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <img src="https://dummyimage.com/50x60/000/fff">
@@ -50,45 +59,19 @@
       <li class="nav-item active"> 
         <a class="nav-link" href="#Contacto"> Contacto <span class="sr-only">(current)</span></a>
       </li>
-
-<!--       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li> -->
     </ul>
-<!--     <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form> -->
   </div>
 </nav>
 <header>
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="https://dummyimage.com/600x400/000/fff" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-             <img src="https://dummyimage.com/600x400/000/fff" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="https://dummyimage.com/600x400/000/fff" class="d-block w-100" alt="...">
-        </div>
-         </div>
-    </div>
+  <div class="container">
+      <h1>Karla Castro</h1>
+      <br>
+      <br>
+      <p>Psicoterapia</p>
+      <br>
+      <br>
+      <button class="btn btn-primary">AGENDA CONMIGO</button>
+  </div>
 </header>
 
 <div class="container centrar-texto">
@@ -96,7 +79,7 @@
  -->    
     <section id="Quiensoy">
       <div class="container">
-          <img src="images/quiensoy.jpg" class="circle t_karla" alt="karlacastro">
+          <img src="images/quiensoy.png" class="t_karla" alt="karlacastro">
             <br>
             <br>
 
@@ -142,13 +125,13 @@
               <div class="container">
                 <div class="row">
                   <div class="col-md-4">
-                     <img src="images/Anahuac.svg" class="circle t_anahuac" alt="karlacastro"> 
+                     <img src="images/Anahuac.svg" class="t_anahuac" alt="Anahuac"> 
                   </div>
                   <div class="col-md-4">
-                    <img src="images/instituto.jpg" class="circle t_kana" alt="karlacastro"> 
+                    <img src="images/instituto.jpg" class="t_kana" alt="instituto"> 
                   </div>
                   <div class="col-md-4">
-                     <img src="images/tanatologia.png" class="circle t_tanato" alt="karlacastro"> 
+                     <img src="images/tanatologia.png" class="t_tanato" alt="tanatología"> 
                   </div>
                 </div>
               </div> 
@@ -166,21 +149,59 @@
     <hr>
 
     <!-- seccion_areasdeatencion -->
-     
-    <section id="Areasdeatencion">
-      <div class="container">
-            <h2>Áreas de atención</h2>
-            <div class="izquierda">
-             <h3>Yo quiero empezar de nuevo</h3>
+          <section id="Areasdeatencion">
+            <div class="container">
+                <!-- Project One Row-->
+                <div class="row justify-content-center no-gutters">
+                    <div class="col-lg-6">
+                      <img class="img-fluid" src="images/yoquieroempezar.png" alt="" />
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h3 class="areasdeatencion">Yo quiero empezar de nuevo</h3>
+                                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Two Row-->
+                <div class="row justify-content-center no-gutters">
+                    <div class="col-lg-6">
+                      <img class="img-fluid" src="images/empezarpareja.png" alt="" />
+                    </div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 ">
+                            <div class="d-flex h-100">
+                                <div class=" w-100 my-auto text-center text-lg-right">
+                                    <h3 class="areasdeatencion">Empezar de nuevo en pareja</h3>
+                                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Two Row-->
+                <div class="row justify-content-center no-gutters">
+                    <div class="col-lg-6">
+                      <img class="img-fluid" src="images/empezarfamilia.png" alt="" />
+                    </div>
+                    <div class="col-lg-6 ">
+                        <div class="bg-black text-center h-100 ">
+                            <div class="d-flex h-100">
+                                <div class=" w-100 my-auto text-center text-lg-left">
+                                    <h3 class="areasdeatencion">Empezar de nuevo en familia</h3>
+                                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="derecha">
-              <h3>Empezar de nuevo en pareja</h3>
-            </div>
-            <div class="izquierda">
-              <h3>Empezar de nuevo en familia</h3>
-            </div>
-      </div>
-    </section>
+        </section>
     <hr>
 
     <!-- seccion_experiencia -->
@@ -204,10 +225,12 @@
         <hr>
 
     <!-- seccion_saladeterapia-->
-    <section id="Saladeterapia"> 
+    <section id="Saladeterapia">
       <div class="container">
-            <h2>Sala de terapia virtual</h2>
-            <p>Todo el 2020 sólo atención en línea</p>
+        <div class="border_salaterapia">
+              <h2>Sala de terapia virtual</h2>
+              <p>Todo el 2020 sólo atención en línea</p>
+        </div>
       </div>
     </section>
 
@@ -224,7 +247,7 @@
 
     <section id="Nota"> 
       <div class="container">
-          <div class="container">
+          <div class="container border">
                 <div class="row">
                   <div class="col-md-2">
                   </div>
@@ -241,7 +264,7 @@
         
     <!-- seccion_contacto -->
     <section id="Contacto">
-      <div id="container">
+      <div class="container">
         <h2>Contacta conmigo</h2>
         <p>Formulario</p>
       </div>
