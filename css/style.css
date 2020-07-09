@@ -1,11 +1,11 @@
 /*Colores*/
 
 /* Color Theme Swatches in Hex */
-.Color-Psychology-Themes-1-hex { color: #33F000; }
-.Color-Psychology-Themes-2-hex { color: #E84807; }
-.Color-Psychology-Themes-3-hex { color: #B81309; }
-.Color-Psychology-Themes-4-hex { color: #FFEA00; }
-.Color-Psychology-Themes-5-hex { color: #0914C9; }
+.Color-Psychology-Themes-Verde-hex { color: #33F000; }
+.Color-Psychology-Themes-Naranja-hex { color: #E84807; }
+.Color-Psychology-Themes-Rojo-hex { color: #B81309; }
+.Color-Psychology-Themes-Amarillo-hex { color: #FFEA00; }
+.Color-Psychology-Themes-Azul-hex { color: #0914C9; }
 
 /* Color Theme Swatches in RGBA */
 .Color-Psychology-Themes-1-rgba { color: rgba(51, 239, 0, 1); }
@@ -17,7 +17,7 @@
 /*Fonts*/
 
 body {font-family: 'Lato', sans-serif;}
-h1 {font-family: 'Yellowtail', cursive;}
+h1 {font-family: 'Qwigley', cursive;} 
 h2, h3, h4, h5 {font-family: 'Vollkorn', serif;}
 
 
@@ -25,9 +25,9 @@ h2, h3, h4, h5 {font-family: 'Vollkorn', serif;}
 
 h1 {
   display: block;
-  font-size: 100px;
+  font-size: 186px;
   margin-top: 0.2em;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.0em;
   margin-left: 0;
   margin-right: 0;
   font-weight: 500;
@@ -42,6 +42,7 @@ h1 {
 	 margin-right: 0;
 	 font-weight: 600;
 	 font-family: serif;
+     color: rgba(39, 29, 12);
 
  }
 
@@ -54,18 +55,75 @@ h1 {
 	margin-right: 0;
 	font-weight: 500;
 	font-family: sans-serif;
+    color: rgba(39, 29, 12);
  }
 
 .d-none { display: block; height: 1px;
     border: 0; border-top: 1px solid #FFF;
     margin: 1em 0; padding: 0; }
 
+/*Header*/
 
-	
+.p_header {margin-top: -5rem;
+    margin-bottom: 1rem;
+    color:white;
+}
+
+.btn-primary {
+    color: rgba(58, 39, 6);
+    background-color: #fe903a;
+    border-color: #353430;
+}
+
+.btn-primary:hover {
+    color: rgba(58, 39, 6);
+    background-color: #ff730f;
+    border-color: #353430;
+}
+
+/*NavBar*/
+
+/*.bg-light {
+background: linear-gradient(to right, #e06337, #ff8d2b), url() no-repeat top center;
+}
+*/
+.bg-light {
+background: linear-gradient(to right, white, #ff8d2b), url() no-repeat top center;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(58, 39, 6, 0.83)!important;
+}
+
+.navbar-brand {
+    color: rgba(58, 39, 6, 0.83)!important;
+}
+
+/*Tamaño de secciones
+*/
+
+header {
+    padding-top: 5.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(rgba(33, 34, 38, 0.6), rgba(33, 34, 38, 0.6)), url(../images/terapiaprincipal.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 95vh;
+}
+
+.modal-body	{
+    color:black;
+}
+
 /*Textos*/	
 
-p{
+p {
 	font-size: 25px;
+    color: rgba(45, 31, 7);
 }
 .centrar-texto { 
 
@@ -83,6 +141,12 @@ p{
 
 /* tamaño imagen karla*/
 
+.tamaño_icon{
+        height:50px;
+        width: 50px
+}
+
+
 .t_karla {
 	height:auto;
 	width: 300px
@@ -90,44 +154,24 @@ p{
 
 /*Tamaño imagen anahuac*/
 .t_anahuac {
-	margin-top:5vh;
-	height:9%;
-	width: auto;
+    margin-top: 5vh;
+    height: 90%;
+    width: auto;
 }
 /*Tamaño imagen kanankil*/
-.t_kana
-
-{
-	height:30%;
-	width: auto;
+.t_kana {
+    height: 99%;
+    width: auto;
 }
 
 /*Tamaño imagen tanatologia*/
 
 .t_tanato {
-    height: 30%;
-    width:  auto;
-
+    height: 108%;
+    width: auto;
 }
 
 
-
-
-/*Tamaño de secciones
-*/
-
-header {
-	padding-top: 5.5rem;
-    padding-bottom: 6rem;
-    text-align: center;
-    color: #fff;
-    background: linear-gradient(rgba(33, 34, 38, 0.6), rgba(33, 34, 38, 0.6)), url(../images/terapiaprincipal.jpg);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-    height: 95vh;
-}
 
 /*Alineación Areas de actención*/
 
@@ -144,6 +188,10 @@ header {
 	height: 150px;
 	width: auto;
 	border-radius: 50%;
+}
+
+.padding-pareja {
+    padding-right: 10vh;
 }
 
 /*Seccion areas de terapia*/
