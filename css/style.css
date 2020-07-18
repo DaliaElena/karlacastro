@@ -1,11 +1,11 @@
 /*Colores*/
 
 /* Color Theme Swatches in Hex */
-.Color-Psychology-Themes-Verde-hex { color: #33F000; }
-.Color-Psychology-Themes-Naranja-hex { color: #E84807; }
-.Color-Psychology-Themes-Rojo-hex { color: #B81309; }
-.Color-Psychology-Themes-Amarillo-hex { color: #FFEA00; }
-.Color-Psychology-Themes-Azul-hex { color: #0914C9; }
+.Naranja {color: rgba(255, 141, 43);}
+.Naranja {color:#FF8D2B}
+.NaranjaLight {color: rgba(255, 249, 219);}
+.NaranjaLight {color:#FFF9DB}
+
 
 /* Color Theme Swatches in RGBA */
 .Color-Psychology-Themes-1-rgba { color: rgba(51, 239, 0, 1); }
@@ -124,7 +124,7 @@ p {
     color:white;
 }
 
-.btn-primary {
+/*.btn-primary {
     color: #f8f9fa;
     background-color: #fe8f3a;
     border-color: #fe8e3a;
@@ -155,6 +155,18 @@ p {
     border-right-color: rgb(255, 250, 223);
     border-bottom-color: rgb(255, 250, 223);
     border-left-color: rgb(255, 250, 223);
+}
+*/
+
+.btn-primary {
+    color: #fff;
+    background-color: #FF8D2B;
+    border-color: #FF8D2B; /*set the color you want here*/
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #FF8D2B;
+    border-color: #FF8D2B; /*set the color you want here*/
 }
 
 /*NavBar*/
@@ -194,6 +206,9 @@ background: linear-gradient(to right, rgb(255, 249, 219), #ff8d2b), url() no-rep
     margin-top: 0px;
     margin-left: 2px;
 }
+
+.floating-wpp {z-index: 2;}
+
 
 /*Tamaño de secciones
 */
