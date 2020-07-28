@@ -253,7 +253,7 @@ header {
 /*Tamaño imagen anahuac*/
 .t_anahuac {
     margin-top: 5vh;
-    height: 97%;
+    height: 86%;
     width: auto;
 }
 /*Tamaño imagen kanankil*/
@@ -332,11 +332,20 @@ header {
     padding-bottom: 4rem;
     text-align: center;
     color: #fff;
-    background: linear-gradient(rgba(33, 34, 38, 0.6), rgba(33, 34, 38, 0.6)), url(../images/saladeterapia.jpg);
+    background: linear-gradient(rgba(33, 34, 38, 0.6), rgba(33, 34, 38, 0.6)), url(../images/saladeterapia.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
+}
+
+/*Sección cursos precios*/
+
+.card-img, .card-img-top {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
 }
 
 /*Seccion nota*/
@@ -355,7 +364,7 @@ header {
 }
 
 
-.border_salaterapia {
+/*.border_salaterapia {
     height: 236px;
     width: auto;
     border-style: ridge;
@@ -363,7 +372,7 @@ header {
     margin-bottom: -7vh;
     border: 1px solid #FFF!important;
 }
-
+*/
 .border_nota {
     height: 236px;
     width: auto;
