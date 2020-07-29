@@ -64,6 +64,12 @@ h1 {
     border: 0; border-top: 1px solid #FFF;
     margin: 1em 0; padding: 0; }
 
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #ffad6654;
+}
 
 /*Textos*/  
 
@@ -252,7 +258,7 @@ header {
 
 /*Tamaño imagen anahuac*/
 .t_anahuac {
-    margin-top: 5vh;
+    margin-top: 2vh;
     height: 86%;
     width: auto;
 }
@@ -323,16 +329,16 @@ header {
 }
 
 .padding-pareja {
-    padding-right: 10vh;
+    padding-right: 0vh;
 }
 
 /*Seccion areas de terapia*/
 #Saladeterapia {
-    padding-top: 8.5rem;
-    padding-bottom: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     text-align: center;
     color: #fff;
-    background: linear-gradient(rgba(33, 34, 38, 0.6), rgba(33, 34, 38, 0.6)), url(../images/saladeterapia.png);
+    background: linear-gradient(rgba(33, 34, 38, 0.6), rgba(33, 34, 38, 0.6)), url(../images/saladeterapia.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -352,8 +358,8 @@ header {
 
 #Nota {
 
-    padding-top: 8.5rem;
-    padding-bottom: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     text-align: center;
     color: #fff;
     background: linear-gradient(rgba(33, 34, 38, 0.6), rgba(33, 34, 38, 0.6)), url(../images/terapeuta.jpg);
@@ -364,24 +370,26 @@ header {
 }
 
 
-/*.border_salaterapia {
-    height: 236px;
+.border_sala {
+    height: 254px;
     width: auto;
-    border-style: ridge;
-    margin-top: -18vh;
-    margin-bottom: -7vh;
-    border: 1px solid #FFF!important;
-}
-*/
-.border_nota {
-    height: 236px;
-    width: auto;
-    margin-top: -18vh;
-    margin-bottom: -7vh;
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
     border-width: 1px !important;
     border-style: solid !important;
     border-color: rgb(255, 255, 255) !important;
-    border-image: initial !important;
+}
+
+.border_nota {
+    height: auto;
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: rgb(255, 255, 255) !important;
 }
 /*footer*/
 
@@ -393,3 +401,6 @@ footer {
   background-image: linear-gradient(to bottom right, rgb(255, 212, 114), rgb(255, 249, 219));
 }
 
+.icon-footer {
+    color:#21252994;
+}

@@ -23,6 +23,10 @@
 
 	<link rel="stylesheet" href="css/style.css">
 
+  <!-- iconos -->
+
+  <script defer="" src="https://friconix.com/cdn/friconix.js"> </script>
+
 
 </head>
 
@@ -53,24 +57,19 @@
 
   <!-- Navigation--> 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <img src="images/logo.png" class="tamaño_icon" alt="volveraempezar">
-      <a class="navbar-brand" href="#">Empezar de nuevo</a>
+    <a class="navbar-brand" href="#"><img src="images/logo.png" class="tamaño_icon" alt="volveraempezar">Empezar de nuevo</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-   <div class="mx-auto order-0">
-    </div>
-      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-       <ul class="navbar-nav ml-auto">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 ¿Quién soy?
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item nav-link" href="#Formacion"> Formación <span class="sr-only">(current)</span></a>
+              <a class="dropdown-item nav-link" href="#Quiensoy"> Presentación <span class="sr-only">(current)</span></a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -89,9 +88,8 @@
                 Terapia online
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                 <a class="dropdown-menu nav-link" href="#"> Sala de terapia <span class="sr-only">(current)</span></a>
+                 <a class="dropdown-menu nav-link" href="#Sala"> Sala de terapia <span class="sr-only">(current)</span></a>
                  <a class="dropdown-menu nav-link" href="#Precios"> Precios y paquetes <span class="sr-only">(current)</span></a>
-                 <a class="dropdown-menu nav-link" href="#Cursosyvideos"> Cursos y videos <span class="sr-only">(current)</span></a>
               </div>
             </li>      
             <li class="nav-item dropdown">
@@ -106,11 +104,9 @@
               <a class="nav-link" href="#Contacto"> Contacto <span class="sr-only">(current)</span></a>
             </li>
         </ul>
-      </div>
-    </ul>
-  </div>    
-
+    </div>
   </nav>
+
 <header>
   <div class="container">
       <h1>Karla Castro</h1>
@@ -228,9 +224,11 @@
 
     <!-- seccion_modelo -->
     <section id="Modelo">
-      <div id="container">
+      <div class="container">
             <h2>Modelo de trabajo</h2>
                 <p>Psicoterapia colaborativa, donde  tú, tu mundo y el dialogo  que  generas  en tus relaciones son los protagonistas.</p>
+                <br>
+
       </div>
     </section>
     <hr>
@@ -238,6 +236,10 @@
     <!-- seccion_areasdeatencion -->
           <section id="Areasdeatencion">
             <div class="container">
+              <br>
+              <h2>Áreas de atención</h2>
+              <br>
+              <br>
                 <!-- Project One Row-->
                 <div class="row justify-content-center no-gutters">
                     <div class="col-lg-6">
@@ -343,28 +345,30 @@
       </div>
     </section>
 
-        <hr>
+    <hr>
 
     <!-- seccion_saladeterapia-->
     <section id="Saladeterapia">
-        <div class="border_salaterapia">
+        <div class="border_sala">
               <h2 class="text-white">Sala de terapia virtual</h2>
               <p class="text-white">Todo el 2020 sólo atención en línea</p>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              <a href="https://karlacastropsicologiacutea.setmore.com"> <button type="button" class="btn btn-primary">
               AGENDAR CITA
-          </button>
+          </button></a>
         </div>
     </section>
 
-    <!-- seccion_precios -->sala
+    <hr>
+
+    <!-- seccion_precios -->
 
     <section id="Precios"> 
       <div class="container-paquetes">
         <h2>Precios y paquetes</h2>
           <p> Hora de terapia convencional: $350 </p>
 
-    <div class="card-deck">
-      <div class="card">
+      <div class="card-deck">
+       <div class="card">
         <img class="card-img-top" src="images/adios.png" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Di adiós  con amor</h5>
@@ -437,22 +441,22 @@
     </div>
     </section>
 
+    <hr>
 
     <!-- seccion_notapersonal -->
 
     <section id="Nota"> 
       <div class="container">
           <div class="container border_nota">
-                <div class="row">
                   <div class="col-md-12">
                   <h2 class="text-white">Nota personal</h2>    
                    <p class="text-white">Para  mi, es importante  conocerte, y que me conozcas; en  cada conversación   busco que  experimentes  la  libertad de ser tú sin juicios, que  seas capaz  de establecer  limites  y de cuestionarte,  creo  que la relación  terapéutica  es una  gran  oportunidad de  reaprender a  relacionarnos  y  de reconstrucción. Creo  profundamente que  todos podemos empezar  de  nuevo.</p><br>
                   </div>
-                </div>
-              </div> 
+          </div> 
       </div>      
   </section>
         
+        <hr>
     <!-- seccion_contacto -->
     <section id="Contacto">
       <div class="container-contacto">
@@ -496,11 +500,14 @@
       </div>
     </section>
 
+    <hr>
+
     <!-- seccion_final -->
     <section id="Final">
       <div class="container">
         <div class="row">
             <div class="col-md-3">
+              <br>
               <p>Depresión
               <br>
               Ansiedad
@@ -512,6 +519,7 @@
               </p>
             </div>
             <div class="col-md-3">
+              <br>
               <p>Separación
                 <br> 
                 Divorcio
@@ -521,6 +529,7 @@
                 Codependencia
             </div>
             <div class="col-md-3">
+              <br>
               <p>Problemas de pareja
                 <br>
                 Reproducción asistida
@@ -531,6 +540,7 @@
               </p>
             </div>
             <div class="col-md-3">
+              <br>
               <p>Manejo del enojo
                 <br>
                  Toma de decisiones      
@@ -548,42 +558,40 @@
 
 <footer>
 <div class="container">
-  <div class="col-md-12">
+  <div class="row">
+  <div class="col-md-4">
     <br>
-    <p class="text-left">Volver a empezar 2020 | Psic. Karla Castro | Terapia presencial y online 
-    <br>Aviso legal y política de privacidad<br>Powered by Mmondo</p>
-    
+    <p class="text-left">Volver a empezar 2020 | Psic. Karla Castro | Terapia presencial y online </p>
   </div>
+  <div class="col-md-4">
+    <br>
+    <p class="text-left">Aviso legal y política de privacidad<br>Powered by Mmondo</p>
+  </div>
+  <div class="col-md-4">
+    <br>
+      <i class="fi-snsuxl-facebook fi-1x icon-footer"></i>
+      <a class="a-footer text-lg-right" href="https://www.facebook.com/EmpezardeNuevoMx">EmpezardeNuevoMx</a>
+      <br>
+      <i class="fi-snsuxl-facebook fi-1x icon-footer"></i>
+      <a class="a-footer text-lg-right" href="https://www.facebook.com/PsicKarlaCastro">PsicologíaParaTodos</a>
+      <br>
+      <i class="fi-snsuxl-instagram fi-1x icon-footer"></i>
+      <a class="a-footer text-lg-right" href="https://www.instagram.com/empezar_de_nuevo_psicoterapia/">@empezar_de_nuevo_psicoterapia <br></a>
+      <br>
 
+
+
+  </div>
+</div>
 </div>
 
 
 
 </footer>
-
-
-
-        
-
-
-
-
-
-
-
-
-
- <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<!--     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
- -->    
-
-
- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/functions.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+ 
 </body>
 </html>
