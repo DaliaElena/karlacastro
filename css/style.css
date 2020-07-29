@@ -285,10 +285,13 @@ header {
     margin-right: -68px;
 }
 
-#Experiencia p {
+#Experiencia {
 
     font-size:18px;
+    background-image: linear-gradient(to bottom right, rgb(255, 212, 114), rgb(255, 212, 114)));
+
 }
+
 
 
 /*Alineación Areas de atención*/
@@ -377,7 +380,7 @@ header {
     margin-bottom: 0px;
     margin-left: 20px;
     margin-right: 20px;
-    border-width: 1px !important;
+    border-width: 1.5px !important;
     border-style: solid !important;
     border-color: rgb(255, 255, 255) !important;
 }
@@ -387,7 +390,7 @@ header {
     width: auto;
     margin-top: 0;
     margin-bottom: 0;
-    border-width: 1px !important;
+    border-width: 1.5px !important;
     border-style: solid !important;
     border-color: rgb(255, 255, 255) !important;
 }
