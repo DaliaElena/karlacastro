@@ -292,6 +292,10 @@ header {
 
 }
 
+.img-fluid-exp {
+    max-width: 100%;
+    height:auto;
+}
 
 
 /*Alineación Areas de atención*/
@@ -335,6 +339,8 @@ header {
     padding-right: 0vh;
 }
 
+
+
 /*Seccion areas de terapia*/
 #Saladeterapia {
     padding-top: 1rem;
@@ -374,7 +380,7 @@ header {
 
 
 .border_sala {
-    height: 254px;
+    height: 437px;
     width: auto;
     margin-top: 0;
     margin-bottom: 0px;
