@@ -173,6 +173,21 @@ p {
     color: #fff;
     background-color: #FF8D2B;
     border-color: #FF8D2B; /*set the color you want here*/
+
+}
+
+.dropdown-item:active {
+        background-color: rgba(255, 249, 219, 0.5) !important;
+}
+
+.button:active, 
+ button:active,
+.button:focus, 
+ button:focus,
+.button:hover, 
+ button:hover{
+    border:none !important;
+    outline:none !important;
 }
 
 /*NavBar*/
