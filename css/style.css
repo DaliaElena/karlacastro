@@ -176,6 +176,51 @@ p {
 
 }
 
+.btn-primary.focus, .btn-primary:focus {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 141, 43);
+    border-color: rgb(255, 141, 43);
+    box-shadow: rgba(38, 143, 255, 0.5) 0px 0px 0px 0.2rem;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: rgb(255, 141, 43);
+    border-color: rgb(255, 141, 43) !important;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: rgb(255, 141, 43);
+    border-color: rgb(255, 141, 43);
+    box-shadow: 0 0 0 0.2rem rgba(38,143,255,.5) !important;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgb(255, 141, 43);
+    border-color: rgb(255, 141, 43) !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: rgb(255, 141, 43);
+    border-color: rgb(255, 141, 43) !important;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: rgb(255, 141, 43);
+    border-color: rgb(255, 141, 43);
+    box-shadow: 0 0 0 0.2rem rgba(255, 141, 43,.5) !important;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgb(255, 141, 43);
+    border-color: rgb(255, 141, 43) !important;
+}
+
 .dropdown-item:active {
         background-color: rgba(255, 249, 219, 0.5) !important;
 }
@@ -197,22 +242,37 @@ background: linear-gradient(to right, #e06337, #ff8d2b), url() no-repeat top cen
 }
 */
 .bg-light {
-background: linear-gradient(to right, rgb(255, 249, 219), #ff8d2b), url() no-repeat top center;
+background: linear-gradient(to right, #FF8D2B, #FF8D2B), url() no-repeat top center;
 }
 
 /*.navbar-nav .nav-link {
     color: rgba(58, 39, 6, 0.83)!important;
 }*/
 
-.navbar-brand {
-    color: rgba(58, 39, 6, 0.83)!important;
-}
 
 .navbar-dark .navbar-nav .nav-link {
     color: #fffffd !important;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: #fbfbfb;
+}
 
+.navbar-brand {
+    color: #fbfbfb !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fbfbfb;
+}
+
+.navbar-nav > li > .dropdown-menu { background-color: #FF8D2B; }
+
+.dropdown-item:hover{
+  /*Modifica lo que quieras*/
+  background:#FF8D2B;
+  color:white;
+            }
 /*Botonwhatsapp*/
 
 .floating-wpp .floating-wpp-button svg {
@@ -419,17 +479,23 @@ header {
 
 footer p {
     font-size: 16px;
+    color:#FFFF;
 }
 
-footer {
+/*footer {
   background-image: linear-gradient(to bottom right, rgb(255, 212, 114), rgb(255, 249, 219));
+}*/
+
+footer {
+ background: linear-gradient(to right, rgb(255, 141, 43), rgb(255, 141, 43)), url(style.css) center top no-repeat;;
 }
 
 .icon-footer {
-    color:#5391f5;
+    color:#FFFF;
 }
 .a-footer {
     font-size: 14px;
+    color:#FFFF;
 }
 
 .card-transparent {
