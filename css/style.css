@@ -498,6 +498,16 @@ header {
     border-color: rgb(255, 255, 255) !important;
 }
 
+/*Información importante
+*/
+
+.removecssa, .removecssa:hover {
+    color:white;
+    all:unset;
+}
+
+
+
 .border_nota {
     height: auto;
     width: auto;
