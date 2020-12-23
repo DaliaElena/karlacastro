@@ -415,6 +415,28 @@ header {
     margin-left: 2vw;
     margin-right: -10vw;
 }
+
+.margin-left {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 125px;
+}
+
+.margin-right {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 70px;
+}
+
+.img-experiencia {
+    max-width: 100%;
+    height: auto;
+    margin-left: 123px;
+}
 /*Alineación Areas de atención*/
 
 
