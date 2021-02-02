@@ -389,7 +389,7 @@ header {
     opacity: 0.8;
     max-width: 200%;
     height: auto;
-    margin-left: 30vw;
+    margin-left: 0vw;
     position: relative;
     margin-top: 0vw;
     z-index: -1;
@@ -399,7 +399,7 @@ header {
     opacity: 0.8;
     max-width: 200%;
     height: auto;
-    margin-left: -40vw;
+    margin-left: 15vw;
     position: absolute;
     margin-top: 0vw;
     z-index: -1;
@@ -581,4 +581,34 @@ footer {
     height: 50%;
     width: auto;
     padding-top: 0px;
+}
+
+/*Querymedia*/
+
+@media only screen and (max-width: 600px) {
+     .img-dospattern, .img-pattern-vertical, .img-pattern-vertical-izquierdo, .img-fluid-pattern {
+        display:none;
+     }
+
+     .img-experiencia {
+    max-width: 100%;
+    height: auto;
+    margin-left: 15px;
+    }
+
+    .margin-left {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-left: 15px;
+    }
+
+    #Saladeterapia {
+        height:900px;
+    }
+
+    .border_sala {
+        height: 865px;
+    }
 }
