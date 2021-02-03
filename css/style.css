@@ -491,7 +491,7 @@ header {
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
-    height: 800px;
+    height: 600px;
 }
 
 /*Sección cursos precios*/
@@ -520,7 +520,7 @@ header {
 
 
 .border_sala {
-    height: 750px;
+    height: 560px;
     width: auto;
     margin-top: 0;
     margin-bottom: 0px;
